@@ -1,4 +1,4 @@
-<project name="name-registry" default="jar" basedir=".">
+<project name="name-registry" default="run" basedir=".">
   <property name="main-class" value="NameRegistryApp"/>
   <property name="build-dir" value="build"/>
   <property name="class-dir" value="${build-dir}/class"/>
