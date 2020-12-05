@@ -15,10 +15,6 @@
 
 public class NameRegister
 {
-  public NameRegister ()
-  {
-  }
-
   // sets the names in the register
   public void setNames (String[] names)
   {
@@ -29,6 +25,8 @@ public class NameRegister
   public String[] getNames ()
   {
     // code to be written here
-    return new String [0];
+    return new String [0]; // this line must be deleted
   }
+
+  // some code must also be written here
 }
