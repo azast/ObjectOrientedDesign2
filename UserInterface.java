@@ -43,7 +43,7 @@ public class UserInterface implements AutoCloseable
   public String[] readNames ()
   {
     // code to be written here (note: use readName())
-    return new String [0];
+    return new String [0]; // this line must also be deleted
   }
 
   // prints names, each name on a separate line
