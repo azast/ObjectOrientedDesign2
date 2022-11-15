@@ -1,0 +1,35 @@
+* Simple name registry application for practicing MVC
+** The purpose of this repository
+   This repository contains the bare bones of an application for
+   practicing model-view-controller (MVC) architecture.
+
+** Installation in IDEA
+   To install the application in IDEA, do the following:
+   1. Clone the repository.
+   2. Right click on class =NameRegistryApp=.
+   3. Select =Run NameRegistryApp.main()=
+   You are now able to make changes to the project and run it again.
+
+** Alternative installation from command line
+   1. Clone repository.
+   2. Inside repo, run =ant= to build the app.
+   3. Run app with
+      #+begin_src sh
+        java -jar build/jar/NameRegistryApp.jar
+      #+end_src
+   
+** License
+   Copyright (C) 2020 Jarmo Hurri
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <https://www.gnu.org/licenses/>.
