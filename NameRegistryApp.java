@@ -20,5 +20,6 @@ public class NameRegistryApp
     String[] names = ui.readNames (); // read names from user
     nameRegister.setNames (names); // store names into register
     ui.showNames (nameRegister.getNames ()); // show names in register to user
+    //köo6kyh
   }
 }
